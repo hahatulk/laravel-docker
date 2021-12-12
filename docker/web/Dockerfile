@@ -1,6 +1,6 @@
 FROM php:8.0-fpm-buster
 
-ENV TIMEZONE            Europe/Moscow
+ENV TIMEZONE            UTC
 ENV PHP_MEMORY_LIMIT    1024M
 ENV UPLOAD_MAX_FILESIZE 126M
 ENV PHP_MAX_POST        126M
